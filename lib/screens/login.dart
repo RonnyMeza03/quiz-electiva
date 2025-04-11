@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz/screens/carros_electricos.dart';
+import 'package:quiz/screens/mainPage.dart';
 import 'package:quiz/service/login_service.dart';
 
 class LoginPage extends StatefulWidget {
@@ -35,7 +35,7 @@ class _LoginPageState extends State<LoginPage> {
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (context) => CarrosElectricosScreen(),
+        builder: (context) => Mainpage(),
       ),
     );
   }
